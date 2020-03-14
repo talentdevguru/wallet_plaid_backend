@@ -10,7 +10,7 @@ const Transaction = require("../db/models/transaction");
 const Budget = require("../db/models/budget");
 module.exports = router;
 
-console.log("env: ", process.env.PORT);
+console.log("PLAID_CLIENT_ID: ", process.env.PLAID_CLIENT_ID);
 
 // const APP_PORT = envvar.number('APP_PORT', 8000);
 const PLAID_CLIENT_ID = process.env.PLAID_CLIENT_ID;
