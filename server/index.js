@@ -14,7 +14,7 @@ require("dotenv").config();
 
 // for push notification
 const moment = require("moment");
-const { findOstrich } = require("./userlookUp");
+const { findOstrich } = require("./userLookUp");
 const Expo = require("expo-server-sdk");
 const expo = new Expo();
 
